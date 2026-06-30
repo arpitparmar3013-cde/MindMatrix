@@ -1,0 +1,28 @@
+# Large data files — keep only small samples
+*.csv
+!**/sample_*.csv
+*.parquet
+*.feather
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit these
+.env
+*.pem
+*.key
+service-account*.json
+credentials.json
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
